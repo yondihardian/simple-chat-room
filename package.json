@@ -1,0 +1,20 @@
+{
+  "name": "simple-chat-room",
+  "version": "1.0.0",
+  "description": "Simple room chat app using express and socketIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "chat",
+    "room"
+  ],
+  "author": "yondihardian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+	"socket.io": "^1.7.3"
+  }
+}
