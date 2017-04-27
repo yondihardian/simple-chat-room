@@ -5,8 +5,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var port = 3000;
 var user = [];
-var a;
-var v;
+
 
 function decodeBase64Image(dataString) {
     var matches = dataString.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/),

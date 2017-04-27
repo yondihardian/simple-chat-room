@@ -1,4 +1,8 @@
-"# simple-chat-room" 
+# simple-chat-room 
 
 asdahsbdjhbasd
 
+
+Blablabla blabla blabla
+
+## Useage
