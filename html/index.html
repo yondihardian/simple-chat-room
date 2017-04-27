@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="login-pane">
+    <div class="image-pane">
+        <img width="75" height="75" id="avatar-login" src="default-avatar.jpg" />
+    </div>
+    <div class="input-pane">
+        <div><input id="inputRoomName" placeholder="Type room name here" value="Development Team" /></div>
+        <div><input id="inputName" placeholder="Type your name here then press enter" /></div>
+    </div>    
+    
+</div>
+
+<div class="app-pane">
+	<div class="user-pane">
+    	<div class="header"></div>
+        <div class="container"></div>
+    </div>
+    <div class="message-pane">
+        <div class="container"></div>
+        <div class="footer">
+        	<input type="text" placeholder="Type messages here and press enter to send" />
+        </div>
+    </div>
+</div>
+<div class="copyright">Developed by YondiHardian</div>
+
+
+<input type='file' id="chooseFile" onchange="readURL(this);" style="display:none;" />
+<canvas width="75" height="75" style="display:none" id="myCanvas">
+
+</canvas>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
